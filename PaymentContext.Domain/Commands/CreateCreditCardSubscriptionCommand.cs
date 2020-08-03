@@ -8,7 +8,6 @@ namespace PaymentContext.Domain.Commands
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Document { get; set; }
-        public string Address { get; set; }
         public string CardHolderName { get; private set; }
         public string CardNumber { get; private set; }
         public string LastTransactionNumber { get; private set; }
